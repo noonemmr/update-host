@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Download SexyChat</title>
+  <meta charset="UTF-8">
+  <title>Downloading SexyChat...</title>
+  <script>
+    window.onload = function() {
+      // Automatically start download after short delay
+      setTimeout(function() {
+        window.location.href = 'sexychat.apk';  // Must match exact file name
+      }, 1000); // 1 second delay
+    };
+  </script>
 </head>
-<body style="text-align:center; margin-top:50px; font-family:sans-serif;">
-  <h1>Download SexyChat APK</h1>
-  <p>Click the button below to download the latest version:</p>
-  <a href="sexychat.apk" download>
-    <button style="padding: 12px 25px; font-size: 18px; cursor: pointer;">Download APK</button>
+<body style="text-align:center; margin-top:100px; font-family:sans-serif;">
   <
